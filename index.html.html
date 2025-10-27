@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dera Fashion Hub — Jewelry</title>
+  <style>
+    :root{--accent:#b98b6b;--dark:#111;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0;color:var(--dark);background:#fff}
+    header{background:linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url('hero.jpg') center/cover no-repeat; color:#fff; padding:60px 16px; text-align:center}
+    .container{max-width:980px;margin:0 auto;padding:24px}
+    h1{font-size:28px;margin:0 0 8px;letter-spacing:0.4px}
+    p.lead{margin:0 0 18px;color:#f0e9e6}
+    .btn{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+    section{padding:36px 0;border-bottom:1px solid #f2f2f2}
+    .about{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+    .about img{width:220px;border-radius:12px;object-fit:cover}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+    .card{border:1px solid #eee;border-radius:12px;padding:12px;background:#fff;box-shadow:0 6px 18px rgba(10,10,10,0.03)}
+    .card img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+    footer{padding:20px;text-align:center;color:var(--muted);font-size:14px}
+    .contact-row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:center}
+    a.icon{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;text-decoration:none;background:#f8f8f8;color:var(--dark);border:1px solid #eee}
+    .small{font-size:13px;color:var(--muted)}
+    @media(min-width:700px){h1{font-size:36px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Dera Fashion Hub</h1>
+      <p class="lead">Timeless Jewelry — Crafted for elegance, worn with confidence.</p>
+      <a class="btn" href="https://wa.me/2347040333850?text=Hello%20Dera%20Fashion%20Hub%2C%20I%27m%20interested%20in%20your%20jewelry." target="_blank" rel="noopener">Message us on WhatsApp</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <div class="about">
+        <div style="flex:1;min-width:260px">
+          <h2 style="margin-top:0">Good morning — Welcome ✨</h2>
+          <p>From delicate everyday pieces to statement designs, <strong>Dera Fashion Hub</strong> creates jewelry that adds refinement to every moment. Handpicked materials, careful finishing, and a focus on wearable elegance.</p>
+          <p class="small">Open for orders, custom requests, and gift wrapping.</p>
+        </div>
+        <img src="about.jpg" alt="Dera Fashion Hub Jewelry Sample" />
+      </div>
+    </section>
+
+    <section>
+      <h3 style="margin-top:0">Featured Collection</h3>
+      <div class="grid">
+        <div class="card">
+          <img src="prod1.jpg" alt="Product 1" />
+          <h4 style="margin:10px 0 6px">Classic Solitaire</h4>
+          <p class="small">Minimal, elegant ring — perfect for every day.</p>
+        </div>
+
+        <div class="card">
+          <img src="prod2.jpg" alt="Product 2" />
+          <h4 style="margin:10px 0 6px">Pearl Drop Necklace</h4>
+          <p class="small">Soft luster for a refined look.</p>
+        </div>
+
+        <div class="card">
+          <img src="prod3.jpg" alt="Product 3" />
+          <h4 style="margin:10px 0 6px">Stackable Bangles</h4>
+          <p class="small">Mix and match for subtle shine.</p>
+        </div>
+
+        <div class="card">
+          <img src="prod4.jpg" alt="Product 4" />
+          <h4 style="margin:10px 0 6px">Signature Earrings</h4>
+          <p class="small">Statement yet classic — handcrafted finish.</p>
+        </div>
+      </div>
+      <p style="margin-top:12px"><a class="btn" href="https://wa.me/2347040333850?text=Hi%20I%20want%20to%20see%20more%20from%20your%20collection." target="_blank" rel="noopener">See more / Order now</a></p>
+    </section>
+
+    <section>
+      <h3 style="margin-top:0">How to Order</h3>
+      <ol style="padding-left:18px">
+        <li>Message us on WhatsApp or click the order button.</li>
+        <li>Tell us the item name or send a screenshot.</li>
+        <li>We confirm availability, price, and shipping.</li>
+      </ol>
+      <div style="margin-top:14px" class="contact-row">
+        <a class="icon" href="https://wa.me/2347040333850" target="_blank" rel="noopener">💬 WhatsApp: 070 4033 3850</a>
+        <a class="icon" href="https://www.instagram.com/dera_fashion_hub" target="_blank" rel="noopener">📸 Instagram: @dera_fashion_hub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p style="margin:6px 0">© Dera Fashion Hub</p>
+      <p class="small">Tip: Replace <code>hero.jpg</code>, <code>about.jpg</code>, and product images in this folder with your photos. Open the file in any browser to preview.</p>
+    </div>
+  </footer>
+</body>
+</html>
